@@ -1,0 +1,24 @@
+{
+  "name": "postiz-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "dotenv -e ../../.env -- next dev -p 4200",
+    "build": "next build",
+    "start": "dotenv -e ../../.env -- next start -p 4200",
+    "pm2": "pm2 start pnpm --name frontend -- start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@base-ui-components/react": "^1.0.0-beta.3",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@remixicon/react": "^4.6.0",
+    "lucide": "^0.542.0",
+    "motion": "^12.23.12",
+    "radix-ui": "^1.4.3",
+    "react-player": "^3.3.1"
+  }
+}
