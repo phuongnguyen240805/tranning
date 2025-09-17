@@ -367,4 +367,92 @@ export const Icons = {
       ></path>
     </svg>
   ),
+  Research: ({ width = 18, height = 18, className }: IconProps) => (
+    <svg
+      width={width}
+      height={height}
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="far"
+      data-icon="magnifying-glass"
+      className="svg-inline--fa fa-magnifying-glass sc-2fc94320-0 iNMAwA"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      color="#A3A4A4"
+    >
+      <path
+        fill="currentColor"
+        d="M368 208A160 160 0 1 0 48 208a160 160 0 1 0 320 0zM337.1 371.1C301.7 399.2 256.8 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 48.8-16.8 93.7-44.9 129.1L505 471c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L337.1 371.1z"
+      ></path>
+    </svg>
+  ),
+  Magic: ({ width = 18, height = 18, className }: IconProps) => (
+    <svg
+      width={width}
+      height={height}
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="wand-magic-sparkles"
+      className="svg-inline--fa fa-wand-magic-sparkles sc-2fc94320-0 iNMAwA"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 576 512"
+      color="#A3A4A4"
+    >
+      <path
+        fill="currentColor"
+        d="M234.7 42.7L197 56.8c-3 1.1-5 4-5 7.2s2 6.1 5 7.2l37.7 14.1L248.8 123c1.1 3 4 5 7.2 5s6.1-2 7.2-5l14.1-37.7L315 71.2c3-1.1 5-4 5-7.2s-2-6.1-5-7.2L277.3 42.7 263.2 5c-1.1-3-4-5-7.2-5s-6.1 2-7.2 5L234.7 42.7zM46.1 395.4c-18.7 18.7-18.7 49.1 0 67.9l34.6 34.6c18.7 18.7 49.1 18.7 67.9 0L529.9 116.5c18.7-18.7 18.7-49.1 0-67.9L495.3 14.1c-18.7-18.7-49.1-18.7-67.9 0L46.1 395.4zM484.6 82.6l-105 105-23.3-23.3 105-105 23.3 23.3zM7.5 117.2C3 118.9 0 123.2 0 128s3 9.1 7.5 10.8L64 160l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L128 160l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L128 96 106.8 39.5C105.1 35 100.8 32 96 32s-9.1 3-10.8 7.5L64 96 7.5 117.2zm352 256c-4.5 1.7-7.5 6-7.5 10.8s3 9.1 7.5 10.8L416 416l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L480 416l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L480 352l-21.2-56.5c-1.7-4.5-6-7.5-10.8-7.5s-9.1 3-10.8 7.5L416 352l-56.5 21.2z"
+      ></path>
+    </svg>
+  ),
+  Swap: ({ width = 18, height = 18, className }: IconProps) => (
+    <svg
+      width={width}
+      height={height}
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fad"
+      data-icon="shuffle"
+      className="svg-inline--fa fa-shuffle sc-2fc94320-0 iNMAwA"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      color="#A3A4A4"
+    >
+      <g className="fa-duotone-group">
+        <path
+          className="fa-secondary"
+          fill="currentColor"
+          d="M0 384c0 17.7 14.3 32 32 32l64 0c30.2 0 58.7-14.2 76.8-38.4L224 309.3c-13.3-17.8-26.7-35.6-40-53.3l-62.4 83.2c-6 8.1-15.5 12.8-25.6 12.8l-64 0c-17.7 0-32 14.3-32 32zM224 202.7c13.3 17.8 26.7 35.6 40 53.3l62.4-83.2c6-8.1 15.5-12.8 25.6-12.8l32 0 0 32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64c6-6 9.4-14.1 9.4-22.6s-3.4-16.6-9.4-22.6l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 32-32 0c-30.2 0-58.7 14.2-76.8 38.4L224 202.7z"
+        ></path>
+        <path
+          className="fa-primary"
+          fill="currentColor"
+          d="M352 416c-30.2 0-58.7-14.2-76.8-38.4L121.6 172.8c-6-8.1-15.5-12.8-25.6-12.8l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c30.2 0 58.7 14.2 76.8 38.4L326.4 339.2c6 8.1 15.5 12.8 25.6 12.8l32 0 0-32c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-32 0z"
+        ></path>
+      </g>
+    </svg>
+  ),
+  Timeline: ({ width = 18, height = 18, className }: IconProps) => (
+    <svg
+      width={width}
+      height={height}
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="far"
+      data-icon="chart-gantt"
+      className="svg-inline--fa fa-chart-gantt sc-2fc94320-0 iNMAwA"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      color="#A3A4A4"
+    >
+      <path
+        fill="currentColor"
+        d="M24 32c13.3 0 24 10.7 24 24l0 352c0 13.3 10.7 24 24 24l416 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L72 480c-39.8 0-72-32.2-72-72L0 56C0 42.7 10.7 32 24 32zM128 136c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24zm88 72l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm160 96l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+      ></path>
+    </svg>
+  ),
 };

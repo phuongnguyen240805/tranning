@@ -14,6 +14,7 @@ type LayoutProps = {
   halfWidth?: boolean;
   tableClassName?: string; // Override table container styles
   hiddenBg?: boolean;
+  mainStyle?: string;
 };
 
 export default function SearchAlatLayout({
@@ -28,11 +29,12 @@ export default function SearchAlatLayout({
   halfWidth = false,
   tableClassName,
   hiddenBg,
+  mainStyle
 }: LayoutProps) {
   return (
     <section
       className={clsx(
-        'flex flex-col gap-6 h-full min-h-0 flex-1 w-full items-center font-sans pt-10 ',
+        'flex flex-col gap-6 h-full min-h-0 flex-1 w-full items-center font-sans pt-10 overflow-hidden',
         className
       )}
     >
@@ -43,9 +45,9 @@ export default function SearchAlatLayout({
         }`}
       >
         <div
-          className={`${
+          className={`w-full ${
             sidebar && 'col-span-1 md:col-span-2 flex flex-col gap-6 min-w-0'
-          }${halfWidth && ' w-full md:w-1/2'}`}
+          }${halfWidth && ' w-full md:w-1/2'} ${mainStyle}`}
         >
           {/* Header Slot */}
           {header}
@@ -75,10 +77,10 @@ export default function SearchAlatLayout({
                 {isTableView ? (
                   <div
                     className={clsx(
-                      `rounded-2xl shadow-lg w-full overflow-x-auto ${
+                      `w-full overflow-x-auto ${
                         tableClassName
                           ? tableClassName
-                          : 'bg-white border border-[#e2e8f0]'
+                          : 'bg-white border border-[#e2e8f0] rounded-2xl shadow-lg'
                       }`
                     )}
                   >

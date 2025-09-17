@@ -1,22 +1,22 @@
 import React, { ReactNode } from 'react';
 
 interface TitleProps {
-  title: string | ReactNode;
-  subtitle?: string;
+  title: string | React.ReactNode;
+  subtitle?: string | React.ReactNode;
   gradientFrom?: string;
   gradientTo?: string;
   className?: string;
   center?: boolean;
 }
 
-const Title: React.FC<TitleProps> = ({
+const Title = ({
   title,
   subtitle,
   gradientFrom = '#232323',
   gradientTo = '#2ecc71',
   className = '',
   center,
-}) => {
+}: TitleProps): JSX.Element => {
   return (
     <div className={`relative mb-2 ${className}`}>
       <div

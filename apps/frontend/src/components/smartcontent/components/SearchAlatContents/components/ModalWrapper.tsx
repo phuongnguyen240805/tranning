@@ -6,7 +6,7 @@ interface ModalWrapperProps {
   opened: boolean;
   onClose?: () => void;
   title?: string;
-  children?: ReactNode;
+  children?: React.ReactNode;
   width?: string;
   height?: string;
   className?: string;

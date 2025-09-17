@@ -83,10 +83,15 @@ export const useMenuItems = () => {
       icon: 'smart-content',
       path: '/smartcontent',
     },
+    // {
+    //   name: t('cobalt', 'Cobalt'),
+    //   icon: 'cobalt',
+    //   path: '/cobalt',
+    // },
     {
-      name: t('cobalt', 'Cobalt'),
-      icon: 'cobalt',
-      path: '/cobalt',
+      name: t('keyword', 'Keyword'),
+      icon: 'keyword',
+      path: '/keyword',
     },
     {
       name: t('Graphite', 'Graphite'),
